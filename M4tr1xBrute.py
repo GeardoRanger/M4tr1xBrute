@@ -11,11 +11,11 @@ import time
 import os
 
 #shared secret token for OTP calculation
-sharedSecret1 = 128939448577488     #input('\nPlease Enter shared secret 1: ')
-sharedSecret2 = 592988748673453     #input('\nPlease Enter shared secret 2: ')
-sharedSecret3 = 792513759492579     #input('\nPlease Enter shared secret 3: ')
+sharedSecret1 = <INPUT SHARED SECRET>
+sharedSecret2 = <INPUT SHARED SECRET>
+sharedSecret3 = <INPUT SHARED SECRET>
 USER = "architect"
-RHOST = "10.10.68.180"
+RHOST = <INPUT MACHINE IP ADDRESS>
 
 try:
     import ntplib
